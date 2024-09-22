@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Equação do 2º Grau</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="box">
+        <div>
+            <h1>Calculadora de Equação de 2º Grau</h1>
+        </div>
+        <label for="a">Digite o valor de a:</label>
+        <br>
+        <input type="number" id="a" step="any">
+    <br><br>
+
+        <label for="b">Digite o valor de b:</label>
+        <br>
+        <input type="number" id="b" step="any">
+    <br><br>
+
+        <label for="c">Digite o valor de c:</label>
+    <br>
+        <input type="number" id="c" step="any">
+        <br><br>
+
+        <button class="but" onclick="resolverEquacao()">RESOLVER</button>
+
+        <p id="passo"></p>
+
+        <p id="resultado"></p>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
